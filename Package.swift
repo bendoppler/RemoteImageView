@@ -22,8 +22,5 @@ let package = Package(
         .target(
             name: "RemoteImageView",
             dependencies: []),
-        .testTarget(
-            name: "RemoteImageViewTests",
-            dependencies: ["RemoteImageView"]),
     ]
 )
